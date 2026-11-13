@@ -1,5 +1,5 @@
 * {
-  margin: 0 auto;
+  margin: 0;
   box-sizing: border-box;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -71,11 +71,13 @@ header {
 .nav__header--btn {
   background-color: #3882f6;
   font-size: 18px;
+  font-weight: 500;
   color: #f9faf8;
   border: none;
   border-radius: 5px;
   padding: 12px;
   margin: 12px;
+  width: 7.5rem;
 }
 
 button:hover {
@@ -126,7 +128,45 @@ h2 {
   /* width: auto; */
   text-align: center;
   background-color: #e5e7eb;
+  color: #1F2937;
   font-size: 36px;
   font-weight: 300;
   font-style: italic;
-} 
+}
+
+.body__cta {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  height: 20vh;
+  background-color: #3882f6;
+  color: #fff;
+  /* margin: 40px; */
+  padding: 60px;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.body__cta--para1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.body__cta--para2 {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.body__cta--btn {
+  background-color: #3882f6;
+  color: #fff;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 8px;
+  width: 7.5rem;
+  font-size: 18px;
+  font-weight: 500;
+}
+
